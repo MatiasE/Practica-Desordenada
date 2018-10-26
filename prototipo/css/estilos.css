@@ -1,0 +1,92 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	color: #000;
+	background: #fff;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+header, section, footer {
+	width: 100%;
+	padding: 2em;
+}
+
+.logo, .botones {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	text-align: left;
+}
+
+.botones {
+	width: 65%;
+	text-align: right;
+}
+
+.logo span {
+	font-size: 2.5em;
+}
+
+.botones h4 {
+	display: inline-block;
+	font-size: 1em; /* 1 em = 16px */
+	font-weight: normal;
+	font-style: italic;
+}
+
+.botones a, .info-home a {
+	padding: .8em .1em;
+	background-color: #444D48;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+.info-home, .img-contenedor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 45%;
+	text-align: left;
+}
+
+.img-contenedor img {
+	width: 100%;
+	display: block;
+}
+
+section {
+	background: #7C8D83;
+}
+
+.info-home h1 {
+	font-size: 2.5em;
+	text-transform: uppercase;
+	margin-bottom: .8em;
+}
+
+.info-home {
+	padding-right: 1em;
+}
+
+.info-home p {
+	line-height: 23px; /* Tiene 16px el font size, se le agrega 7 */
+	margin-bottom: 1.5em;
+}
+
+footer {
+	background-color: black;
+}
+
+footer h1 {
+	color: white;
+}
